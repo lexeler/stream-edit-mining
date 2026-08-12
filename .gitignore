@@ -1,0 +1,28 @@
+# окружение
+.venv/
+venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+
+# данные и результаты: в репозиторий не входят
+work/
+*.mp4
+*.mkv
+*.mov
+*.flac
+*.wav
+*.m4a
+*.prproj
+*.zip
+*.npy
+*.npz
+*.jsonl
+
+# промежуточные файлы edl_recovery
+edl_recovery/*.raw
+edl_recovery/*.env
+edl_recovery/*.b8
+edl_recovery/*.i64
+edl_recovery/*.json
